@@ -18,6 +18,7 @@ import {
     pricewise,
     react,
     redux,
+    ea,
     sass,
     snapgram,
     summiz,
@@ -92,11 +93,7 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+   
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -111,37 +108,55 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software Engineering Job Simulation — Electronic Arts (EA)",
+       icon: ea,
+       
+        
+    iconBg: "#ebf0f4ff",
+    date: "2025",
+    points: [
+        "Completed a structured software engineering job simulation designed by Electronic Arts.",
+        "Wrote a feature proposal by analyzing requirements, constraints, and expected user impact.",
+        "Designed and implemented object-oriented classes following clean code and OOP principles.",
+        "Improved an existing inventory system with a focus on readability, scalability, and logic optimization.",
+        "Identified, debugged, and fixed issues in a simulated live production environment.",
+        "Gained experience working through real-world engineering tasks similar to industry workflows.",
+    ],
+},
+
+
+    {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+      
+        icon: react,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2020 - Ongoing",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Building interactive user interfaces using React.js and related frontend technologies.",
+            "Structuring applications with reusable components and clean code principles.",
+            "Ensuring responsive layouts and cross-browser compatibility.",
+            "Continuously reviewing and improving code for performance and maintainability.",
         ],
     },
     {
         title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+       
+        icon: react,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2021 - Ongoing",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Building interactive user interfaces using React.js and related frontend technologies.",
+            "Structuring applications with reusable components and clean code principles.",
+            "Ensuring responsive layouts and cross-browser compatibility.",
+            "Continuously reviewing and improving code for performance and maintainability.",
+    ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        
+      
+        iconBg: "#e3aa7eff",
+       date: "March 2020 - Ongoing",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,10 +166,10 @@ export const experiences = [
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+       
+       
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Jan 2021 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -173,12 +188,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/r70esh',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: '',
     }
 ];
 
@@ -191,38 +206,24 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/pricewise',
     },
     {
-        iconUrl: threads,
+        iconUrl: nextjs,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Autospace Parking',
+        description: 'Built an online parking management system that allows users to search garages, book parking slots, manage valet services, and track bookings in real time through a web-based platform.',
+        link: 'https://github.com/r70esh/autospace-workshop',
     },
     {
-        iconUrl: car,
+        iconUrl: nextjs,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Gateless',
+        description: 'Developed a gateless parking system using ANPR to automatically detect vehicle number plates, enabling seamless entry, exit, and real-time parking management without physical barriers.',
+        link: 'https://github.com/r70esh/gatelessparking',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: react,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Archer Game',
+        description: 'Developed a simple archery game in C featuring basic gameplay mechanics, score calculation, and user interaction through the console.',
+        link: 'https://github.com/r70esh/graphics',
     }
 ];
